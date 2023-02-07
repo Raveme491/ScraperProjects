@@ -1,7 +1,7 @@
 import requests
 from bs4 import BeautifulSoup
 import smtplib
-import Twitter.dados as dados
+import dados
 
 books = {
     'Algorimos':'https://www.amazon.com.br/Entendendo-Algoritmos-Ilustrado-Programadores-Curiosos/dp/8575225634/?_encoding=UTF8&pd_rd_w=HYvtK&content-id=amzn1.sym.7e02476f-6b1f-478b-bd90-e9f82ef6fc53&pf_rd_p=7e02476f-6b1f-478b-bd90-e9f82ef6fc53&pf_rd_r=CNTF891N636HSJTN0GKQ&pd_rd_wg=dugyG&pd_rd_r=c2b8e4f1-fac3-4865-8563-c8f8cc542667&ref_=pd_gw_ci_mcx_mr_hp_atf_m',
